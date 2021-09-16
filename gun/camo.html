@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <title>Bullet force</title>
+</head>
+
+  
+<body>
+  <!-- Showcase & Nav -->
+  <div id="showcase">
+    <header>
+      <nav class='cf'>
+        <ul class='cf'>
+          <li class="hide-on-small">
+            <a href="https://polowis.github.io/bulletforce/">Bullet Force</a>
+          </li>
+          <li>
+            <a href='https://polowis.github.io/bulletforce/gun/gun.html'>Gun</a>
+          </li>
+          <li>
+            <a href='camo.html'>Camo</a>
+          </li>
+          <li>
+            <a href='#'>Perks</a>
+          </li>
+           <li>
+            <a href='https://goo.gl/forms/gFTtvR9or2QnxOId2'>Liên Hệ</a>
+          </li>
+          <li>
+            <a href='https://polowis.github.io/bulletforce/guide/guide.html'>Guide</a>
+          </li>
+        </ul>
+        <a href='#' id='openup'>Bullet force</a>
+      </nav>
+    </header>
+    <div class="section-main container">
+      <h1></h1>
+      <h2></h2>
+      <p class="lead hide-on-small">
+        
+      </p>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+      <h2>Camo list</h2>
+      <p>Updating images.... </p>  
+      <input class="form-control" id="myInput" type="text" placeholder="Search skin..">
+      <br>          
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Rarity</th>
+            </tr>
+          </thead>
+          <tbody id="myTable">
+            <tr>
+              <td>001</td>
+              <td>US Flag</td>
+              <td style="color:#ff0066">Legendary</td>
+            </tr>
+           <tr>
+              <td>002</td>
+              <td>China Flag</td>
+              <td style="color:#ff0066">Legendary</td>
+            </tr>
+           <tr>
+              <td>003</td>
+              <td>Japan Flag</td>
+              <td style="color:#ff0066">Legendary</td>
+            </tr> 
+            <tr>
+              <td>004</td>
+              <td>Brazil Flag</td>
+              <td style="color:#ff0066">Legendary</td>
+            </tr>
+           <tr>
+                <td>005</td>
+                <td>Comic</td>
+                <td style="color:#FF4500">Super Rare</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Pirate</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>
+           <tr>
+                <td>007</td>
+                <td>E-Sport</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>Sky</td>
+                <td style="color:#00FFFF">Very Common</td>
+                </tr>
+            <tr>
+                <td>009</td>
+                <td>Beard</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+            <tr>
+                <td>010</td>
+                <td>Blood</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr> 
+            <tr>
+                <td>011</td>
+                <td>Predator</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>
+            <tr>
+                <td>012</td>
+                <td>Black Ice</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>  
+            <tr>
+                <td>013</td>
+                <td>Purple Dragon</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>  
+            <tr>
+                <td>014</td>
+                <td>Fruity</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>
+            <tr>
+                <td>015</td>
+                <td>Nemesis</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+            <tr>
+                <td>016</td>
+                <td>Brick</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>                  
+            <tr>
+                <td>017</td>
+                <td>Cosmic</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>  
+            <tr>
+                <td>018</td>
+                <td> Rhythm</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>
+            <tr>
+                <td>019</td>
+                <td>Ripped</td>
+                <td style="color:#FF4500">Super Rare </td>
+            </tr>
+            <tr>
+                <td>020</td>
+                <td>Dynamic</td>
+                <td style="color:#FF4500">Super Rare</td>
+            </tr>
+            <tr>
+                <td>021</td>
+                <td>Surge</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>  
+            <tr>
+                <td>022</td>
+                <td>Noble</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>
+           <tr>
+                <td>023</td>
+                <td>Christmas</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+            <tr>
+                <td>024</td>
+                <td>City</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>
+            <tr>
+                <td>025</td>
+                <td>Leaves</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>  
+           <tr>
+                <td>026</td>
+                <td>Leopard</td>
+                <td style="color:#FF4500">Super Rare </td>
+            </tr>
+            <tr>
+                <td>027</td>
+                <td>Roses</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+            <tr>
+                <td>028</td>
+                <td>Skull</td>
+                <td style="color:#FF4500">Super Rare</td>
+            </tr>
+            <tr>
+                <td>029</td>
+                <td>Woodland</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+            <tr>
+                <td>030</td>
+                <td>Arctic</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+            <tr>
+                <td>031</td>
+                <td>Volcanic</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+            <tr>
+                <td>032</td>
+                <td>Scarred</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+            <tr>
+                <td>033</td>
+                <td>Synth</td>
+                <td style="color:#FF4500">Super Rare</td>
+            </tr>
+            <tr>
+                <td>034</td>
+                <td>Infusion</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+            <tr>
+                <td>035</td>
+                <td>Core</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+            <tr>
+                <td>036</td>
+                <td>Nuke</td>
+                <td style="color:#ff0066">Legendary</td>
+            </tr>
+          <tr>
+                <td>037</td>
+                <td>Tiger</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+            <tr>
+                <td>038</td>
+                <td>Black Emerald</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+           <tr>
+                <td>039</td>
+                <td>Black Sapphire</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>
+            <tr>
+                <td>040</td>
+                <td>Submerged</td>
+                <td style="color:#00FF00">Common</td>
+                </tr> 
+             <tr>
+                <td>041</td>
+                <td>Sharp Flames</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>
+           <tr>
+                <td>042</td>
+                <td>Elite Snow</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+            <tr>
+                <td>043</td>
+                <td>Cold Lightning</td>
+                <td style="color:#00FF00">Common</td>
+                </tr> 
+              <tr>
+                <td>044</td>
+                <td>Ruby</td>
+                <td style="color:#00FFFF">Very Common</td>
+            </tr>
+           <tr>
+                <td>045</td>
+                <td>Glossy Pink</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>
+            <tr>
+                <td>046</td>
+                <td>Patriot</td>
+                <td style="color:#00FF00">Common</td>
+                </tr> 
+             <tr>
+                <td>047</td>
+                <td>Splattered</td>
+                <td style="color:#FFA500">Rare</td>
+                </tr> 
+              <tr>
+                <td>048</td>
+                <td>Gecko</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>
+           <tr>
+                <td>049</td>
+                <td>Ocean</td>
+                <td style="color:#00FF00">Common</td>
+            </tr>
+            <tr>
+                <td>050</td>
+                <td>Busy</td>
+                <td style="color:#00FFFF">Very Common</td>
+                </tr> 
+             <tr>
+                <td>051</td>
+                <td>Gore</td>
+                <td style="color:#00FF00">Common</td>
+                </tr> 
+              <tr>
+                <td>052</td>
+                <td>Dragon</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>
+           <tr>
+                <td>053</td>
+                <td>Sport</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>
+            <tr>
+                <td>054</td>
+                <td>Sweaty Nerd</td>
+                <td style="color:#ff0066">Legendary</td>
+                </tr> 
+              <tr>
+                <td>055</td>
+                <td>Gold</td>
+                <td style="color:#FFA500">Rare</td>
+            </tr>
+           <tr>
+                <td>056</td>
+                <td>Spectre</td>
+                <td style="color:#FF4500">Super Rare</td>
+            </tr>
+            <tr>
+                <td>057</td>
+                <td>Magma</td>
+                <td style="color:#ff0066">Legendary</td>
+                </tr> 
+            <tr>
+                <td>058</td>
+                <td>Ghost</td>
+                <td style="color:#FF4500">Super Rare</td>
+            </tr>
+           <tr>
+                <td>059</td>
+                <td>Electric</td>
+                <td style="color:#FF4500">Super Rare</td>
+            </tr>
+            <tr>
+                <td>060</td>
+                <td>Beat</td>
+                <td style="color:#ff0066">Legendary</td>
+                </tr> 
+            <tr>
+              <td>061</td>
+              <td>Quick</td>
+              <td style="color:#ff0066">Legendary</td>
+            </tr>
+           <tr>
+              <td>062</td>
+              <td>Chameleon</td>
+              <td style="color:#ff0066">Legendary</td>
+            </tr>
+           
+          </tbody>
+        </table>
+      </div>
+
+      <script>
+          $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+              var value = $(this).val().toLowerCase();
+              $("#myTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+              });
+            });
+          });
+      </script>
+
+ <!-- <footer>
+        <div class="pol">
+          <div class="footer-cols">
+            <ul>
+              <li>Legacy</li>
+              <li>
+                <a href="#">Razey</a>
+              </li>
+              <li>
+                <a href="#">Daisuki0504</a>
+              </li>
+              <li>
+                <a href="#">FrostyMelon</a>
+              </li>
+              <li>
+                <a href="#">Pimass</a>
+              </li>
+              <li>
+                <a href="#">Polowis</a>
+              </li>
+            </ul>
+    
+            <ul>
+              <li>legacy</li>
+              <li>
+                <a href="#">Hargan</a>
+              </li>
+              <li>
+                <a href="#">Hiimnoob</a>
+              </li>
+              <li>
+                <a href="#">Zues01</a>
+              </li>
+              <li>
+                <a href="#">BossRudo</a>
+              </li>
+              <li>
+                <a href="#">Ouvel</a>
+              </li>
+            </ul>
+    
+            <ul>
+              <li>Game</li>
+              <li>
+                <a href="#">Gun</a>
+              </li>
+              <li>
+                <a href="#">Camo</a>
+              </li>
+              <li>
+                <a href="#">Killstreak</a>
+              </li>
+              <li>
+                <a href="#">Maps</a>
+              </li>
+              <li>
+                <a href="#">Perk</a>
+              </li>
+            </ul>
+    
+            <ul>
+              <li>About </li>
+              <li>
+                <a href="#">Work with us</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">unknwon</a>
+              </li>
+              <li>
+                <a href="#">unknown</a>
+              </li>
+              <li>
+                <a href="#">Unknown</a>
+              </li>
+            </ul>
+    
+          </div>
+        </div>-->
+        <div class="footer-bottom text-center">
+          Copyright &copy; 2018 Polowis
+        </div>
+      </footer> 
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      <script src="gun.js"></script>
+    </body>
+    
+    </html>
